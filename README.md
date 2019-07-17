@@ -1,30 +1,26 @@
 # Time expressions
 
-A time expression is an expression that happens (or not) in a recurrent way
+El ejemplo consiste en una **TimeExpression** (o expresión temporal). Esta admite la programación de distintos tipos de recurrencia. 
 
-For example:
+Fue desarrollado usando la técnica de Test Driven Development (TDD). Pensando siempre en generar una pieza de software que cumpla con los principios SOLID y GRASP, para generar código limpio y eficiente.
 
-## Non-recurring
+A continuación se detallan los test realizados para verificar la recurrencia mencionada anteriormente, indicando el nombre de cada uno para su rápida ubicación en la clase de test:
 
-Thursday, February 22, 2018.
+- El evento sucede en un momento especifico (**testOnDate**).
+- El evento se repite en forma diaria (**testRecursEveryDay**).
+- El evento se repite cada dos días (**testRecursEveryTwoDays**).
+- El evento se repite el segundo día de cada mes (**testRecursEveryMonthTheSecondDay**).
+- El evento se repite cada dos meses, el segundo día del mes (**testRecursEveryTwoMonthsTheSeconthDay**).
+- El evento se repite el primer viernes de cada mes (**testRecursEveryMonthTheFirstFriday**).
+- El evento se repite el último viernes de cada mes (**testRecursEveryMonthTheLastFriday**).
+- El evento se repite en forma anual, el día 8 de agosto de cada año (**testRecursEveryAugustTheEight**)
 
-## Recurring
+##Notas:
+El ejemplo fue desarrollado en Java 8, haciendo uso principalmente del Date API incluido en esta versión.
 
-### Every X days from one date to another date
-
-Every 3 days from Thursday, February 22, 2018 to March 15, 2018.
-
-### Day Y every X months from a month to another month
-
-On the 8th of each month from January 2018 to August 2019.
-
-### The Y every X months from a month to another month
-
-The 3rd Friday every 2 months from January 2018 to August 2019.
-
-### The Y every X years from a year to another year
-
-On August 8 every year from 2018 to 2024.
+Licencia MIT
+----
+Para uso totalmente libre, incluyendo el uso dentro de Software propietario.
 
 
 

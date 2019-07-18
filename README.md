@@ -2,8 +2,6 @@
 
 El ejemplo consiste en una **TimeExpression** (o expresión temporal). Esta admite la programación de distintos tipos de recurrencia. 
 
-Este ejercicio fue desarrollado con la técnica de Test Driven Development (TDD), teniendo siempre presente generar una pieza de software que cumpla con los principios **SOLID** y **GRASP**, para que el código sea limpio y eficiente.
-
 A continuación se detallan los test realizados para verificar la recurrencia mencionada anteriormente, indicando el nombre de cada uno para su rápida ubicación en la clase de test:
 
 - El evento sucede en un momento especifico (**testOnDate**).
@@ -16,11 +14,14 @@ A continuación se detallan los test realizados para verificar la recurrencia me
 - El evento se repite en forma anual, el día 8 de agosto de cada año (**testRecursEveryAugustTheEight**).
 
 ## Notas
-El ejemplo fue implementado en Java 8, haciendo uso principalmente del Date API incluido en esta versión.
+
+Este ejercicio fue desarrollado con la técnica de Test Driven Development (**TDD**), teniendo siempre presente generar una pieza de software que cumpla con los principios **SOLID** y **GRASP**, para que el código sea limpio y eficiente.
+
+Por otro lado, es importante aclarar que la implementación fue realizada en **Java 8**, haciendo uso principalmente del **Date API** incluido en esta versión.
 
 Licencia MIT
 ----
-Para uso totalmente libre, incluyendo el uso dentro de Software propietario.
+**Para uso totalmente libre**, incluyendo el uso dentro de Software propietario.
 
 
 

@@ -1,4 +1,4 @@
-package checker;
+package com.alanlapierre.timexp.checker;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 

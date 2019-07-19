@@ -1,3 +1,4 @@
+package com.alanlapierre.timexp.main;
 
 import junit.framework.TestCase;
 

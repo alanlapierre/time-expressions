@@ -1,18 +1,19 @@
+package com.alanlapierre.timexp.main;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.MonthDay;
 import java.time.YearMonth;
 
-import checker.ComplexMonthlyRecurringTimeExpressionChecker;
-import checker.DailyRecurringTimeExpressionChecker;
-import checker.DailyTimeRecurrency;
-import checker.MonthlyTimeRecurrency;
-import checker.NonRecurringTimeExpressionChecker;
-import checker.SimpleMonthlyRecurringTimeExpressionChecker;
-import checker.TimeExpressionChecker;
-import checker.TimeRecurrency;
-import checker.YearlyRecurringTimeExpressionChecker;
-import checker.YearlyTimeRecurrency;
+import com.alanlapierre.timexp.checker.ComplexMonthlyRecurringTimeExpressionChecker;
+import com.alanlapierre.timexp.checker.DailyRecurringTimeExpressionChecker;
+import com.alanlapierre.timexp.checker.DailyTimeRecurrency;
+import com.alanlapierre.timexp.checker.MonthlyTimeRecurrency;
+import com.alanlapierre.timexp.checker.NonRecurringTimeExpressionChecker;
+import com.alanlapierre.timexp.checker.SimpleMonthlyRecurringTimeExpressionChecker;
+import com.alanlapierre.timexp.checker.TimeExpressionChecker;
+import com.alanlapierre.timexp.checker.TimeRecurrency;
+import com.alanlapierre.timexp.checker.YearlyRecurringTimeExpressionChecker;
+import com.alanlapierre.timexp.checker.YearlyTimeRecurrency;
 
 public class TimeExpression {
 

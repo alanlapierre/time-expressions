@@ -1,10 +1,10 @@
-package checker;
+package com.alanlapierre.timexp.checker;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.YearMonth;
 
-import utils.DateUtils;
+import com.alanlapierre.timexp.utils.DateUtils;
 
 public class MonthlyTimeRecurrency extends TimeRecurrency {
 

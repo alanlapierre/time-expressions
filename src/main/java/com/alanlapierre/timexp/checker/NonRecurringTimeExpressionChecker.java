@@ -1,4 +1,4 @@
-package checker;
+package com.alanlapierre.timexp.checker;
 import java.time.LocalDate;
 
 public class NonRecurringTimeExpressionChecker implements TimeExpressionChecker {

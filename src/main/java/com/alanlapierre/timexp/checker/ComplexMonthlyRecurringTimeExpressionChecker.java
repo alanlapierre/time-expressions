@@ -1,9 +1,9 @@
-package checker;
+package com.alanlapierre.timexp.checker;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-import utils.DateUtils;
+import com.alanlapierre.timexp.utils.DateUtils;
 
 public class ComplexMonthlyRecurringTimeExpressionChecker implements TimeExpressionChecker {
 
